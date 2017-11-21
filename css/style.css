@@ -350,6 +350,7 @@ button {
 .select-country {
   width: 531px;
   -moz-appearance: none;
+  -webkit-appearance: none;
   background: url(../images/select.png) no-repeat right 7px center;
 }
 
