@@ -12,7 +12,7 @@
   <body>
     <div class='wrapper'>
       <!-- header -->
-      <header id="header" class="clearfix" >
+      <header id="header" >
         <div class ='header-text'>
           <p> 単に印刷と植字のダミーテキスト単に印刷と植字のダミーテキスト </p>
         </div>
@@ -21,7 +21,7 @@
           <img src="images/title.png" alt="title">
         </div>
         <div class='search'>
-          <form action="" method="get" accept-charset="utf-8">
+          <form action="" method="get" >
             <input type="text" placeholder="  単に印刷と植字のダミーテキスト">
             <button class='button-submit' type="submit"></button>
             <button class='button-link' >
@@ -69,11 +69,11 @@
                 <td>
                   <div class='info-email'>
                     <div class="button-radio">
-                      <input type="radio" value="None" id="squaredradio" name='email' checked />
+                      <input type="radio" id="squaredradio" name='email' checked />
                       <label for="squaredradio" class='active' >お名前を使用する</label>
                     </div>
                       <div class="button-radio">
-                      <input type="radio" value="None" id="squaredradio2" name='email' />
+                      <input type="radio" id="squaredradio2" name='email' />
                       <label for="squaredradio2">メールアドレスを使用しない（メールアドレス以外のIDを指定する）</label>
                     </div>
                     <div class="text text-email">
@@ -112,11 +112,11 @@
                     <div class="radio nickname">
                       <span>ニックネーム</span>
                       <div class="radio-inline name button-radio">
-                        <input type="radio" value="None" id="squaredradio3" name='nickname' checked />
+                        <input type="radio" id="squaredradio3" name='nickname' checked />
                         <label for="squaredradio3" class='active'>お名前を使用する</label>
                       </div>
                       <div class="radio-inline name button-radio">
-                        <input type="radio" value="None" id="squaredradio4" name='nickname' />
+                        <input type="radio" id="squaredradio4" name='nickname' />
                         <label for="squaredradio4">お名前を使用しない（ニックネームを指定する）</label>
                       </div>
                       <div class="clr"></div>
@@ -129,7 +129,7 @@
                 <th>生年月日</th>
                 <td>
                   <div class="text info-birthday">
-                    <input type="text"  class="text"  placeholder ="1974/03/10" />
+                    <input type="text" class="text" placeholder ="1974/03/10" />
                     <button ></button>
                   </div>
                 </td>
@@ -139,11 +139,11 @@
                 <th>単に印刷</th>
                 <td>
                   <div class="radio-inline gender button-radio ">
-                    <input type="radio" value="None" id="squaredradio5" name='gender' checked />
+                    <input type="radio" id="squaredradio5" name='gender' checked />
                     <label for="squaredradio5" class='active'>男性</label>
                   </div>
                   <div class="radio-inline gender button-radio">
-                    <input type="radio" value="None" id="squaredradio6" name='gender' />
+                    <input type="radio" id="squaredradio6" name='gender' />
                     <label for="squaredradio6">女性</label>
                   </div>
                   <div class="clr"></div>
@@ -155,17 +155,17 @@
                 <td>
                   <div class="button-radio">
                     <div class="radio-inline contact">
-                      <input type="radio" value="None" id="squaredradio7" name='contact' checked />
+                      <input type="radio" id="squaredradio7" name='contact' checked />
                       <label for="squaredradio7" class='active'>自宅</label>
                     </div>
 
                     <div class="radio-inline contact">
-                      <input type="radio" value="None" id="squaredradio8" name='contact' />
+                      <input type="radio" id="squaredradio8" name='contact' />
                       <label for="squaredradio8">勤務先</label>
                     </div>
 
                     <div class="radio-inline contact">
-                      <input type="radio" value="None" id="squaredradio9" name='contact' />
+                      <input type="radio" id="squaredradio9" name='contact' />
                       <label for="squaredradio9">その他</label>
                     </div>
                     <div class="clr"></div>
@@ -205,7 +205,7 @@
                 <th>単に印刷</th>
                 <td>
                   <div class="text">
-                    <input type="text"  class="text"  placeholder ="市区郡" />
+                    <input type="text" class="text" placeholder ="市区郡" />
                   </div>
                 </td>
               </tr>
@@ -214,7 +214,7 @@
                 <th>単に印刷</th>
                 <td>
                   <div class="text">
-                    <input type="text"  class="text"  placeholder ="町村字番地" />
+                    <input type="text" class="text" placeholder ="町村字番地" />
                   </div>
                 </td>
               </tr>
@@ -223,7 +223,7 @@
                 <th>単に印刷</th>
                 <td>
                   <div class="text">
-                    <input type="text"  class="text"  placeholder ="建物名" />
+                    <input type="text" class="text" placeholder ="建物名" />
                   </div>
                 </td>
               </tr>
@@ -232,7 +232,7 @@
                 <th>電話番号</th>
                 <td>
                   <div class="text phone">
-                    <input type="text"  class="text"  placeholder ="090-0000-0000" />
+                    <input type="text" class="text" placeholder ="090-0000-0000" />
                     <p class='example'>
                       例）0312345678　　※半角数字（ハイフンなし）
                     </p>
@@ -248,19 +248,19 @@
                     <ul>
                       <li>
                         <div class="checkbox-question">
-                          <input type="checkbox" value="None" id="squaredcheck" name='question' checked />
+                          <input type="checkbox" id="squaredcheck" name='question' checked />
                           <label for="squaredcheck" class='active'>インターネット</label>
                         </div>
                       </li>
                       <li>
                         <div class="checkbox-question">
-                          <input type="checkbox" value="None" id="squaredcheck1" name='question' checked />
+                          <input type="checkbox" id="squaredcheck1" name='question' checked />
                           <label for="squaredcheck1" class='active'>SNS</label>
                         </div>
                       </li>
                       <li>
                         <div class="checkbox-question">
-                          <input type="checkbox" value="None" id="squaredcheck2" name='question' checked />
+                          <input type="checkbox" id="squaredcheck2" name='question' checked />
                           <label for="squaredcheck2" >クチコミ</label>
                         </div>
                       </li>
@@ -272,19 +272,19 @@
                     <ul>
                       <li>
                         <div class="checkbox-question">
-                          <input type="checkbox" value="None" id="squaredcheck4" name='question' checked />
+                          <input type="checkbox" id="squaredcheck4" name='question' checked />
                           <label for="squaredcheck4" class='active'>雑誌（ブランドJOY）</label>
                         </div>
                       </li>
                       <li>
                         <div class="checkbox-question">
-                          <input type="checkbox" value="None" id="squaredcheck5" name='question' checked />
+                          <input type="checkbox" id="squaredcheck5" name='question' checked />
                           <label for="squaredcheck5">店舗</label>
                         </div>
                       </li>
                       <li>
                         <div class="checkbox-question">
-                          <input type="checkbox" value="None" id="squaredcheck6" name='question' checked />
+                          <input type="checkbox" id="squaredcheck6" name='question' checked />
                           <label for="squaredcheck6" >その他</label>
                         </div>
                       </li>
@@ -300,11 +300,11 @@
                 <td>
                   <div class="radio">
                     <div class="radio-inline send-info button-radio ">
-                      <input type="radio" value="None" id="squaredradio10" name='send' checked />
+                      <input type="radio" id="squaredradio10" name='send' checked />
                       <label for="squaredradio10" class='active'>受け取る</label>
                     </div>
                     <div class="radio-inline gender button-radio">
-                      <input type="radio" value="None" id="squaredradio11" name='send' />
+                      <input type="radio" id="squaredradio11" name='send' />
                       <label for="squaredradio11">受け取らない</label>
                     </div>
                     <div class="clr"></div>
@@ -313,7 +313,7 @@
               </tr>
 
             </table>
-            <div class='danger'>
+            <div class='check-form-note'>
               <span>変更された情報はEPARK会員情報にも反映されます。</span>
             </div>
 

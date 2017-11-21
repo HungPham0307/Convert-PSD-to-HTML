@@ -376,13 +376,13 @@ button {
   content: url(../images/icon6.png) !important;
 }
 
-.danger {
+.check-form-note {
   height: 30px;
   background-color: #FFE9EA;
   margin-top: 21px;
 }
 
-.danger span {
+.check-form-note span {
   font-size: 14px;
   line-height: 30px;
   color: #CB141A;
